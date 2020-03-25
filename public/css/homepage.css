@@ -1,0 +1,212 @@
+.home-banner {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    background: lightblue url("../images/homepage/banner/VR\ Banner.jpg");
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent!important;
+    /* height: 440px; */
+    height: 100%;
+    width: 100%;
+  }
+
+  body, html{
+    height: 100%;
+  }
+
+  .home-slide{
+    top: 230px;
+  }
+
+  .hometext{
+    position: relative;
+    left: 0;
+    right: 0;
+    color: #fff;
+  }
+
+  .home-indicators {
+    justify-content: left;
+    margin-left: 0px;
+    top: 350px;
+  }
+
+  #vrdevice{
+    position: absolute;
+    top: 170px;
+    right: 60px;
+  }
+
+  .page-container{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: #fff;
+  }
+    /* FOR SERVICE SECTION */
+  #service{
+    margin-top: 70px;
+  }
+  .service-title{
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .service-title span{
+    color: #B8860B;
+  }
+  .service-img{
+    width: 180px;
+    height: auto;
+  }
+  .service-txt{
+    margin-top: 40px;
+    font-size: 17px;
+    text-align: justify;
+  }
+  .service-logo{
+    width: 100px;
+    height: auto;
+    margin: 30px;
+  }
+ /* END SERVICE SECTION */
+
+  /* FOR DIFFERENT ABOUT SECION */
+  #diff-about{
+    background-color: lavender;
+    padding-bottom: 50px;
+  }
+  #different{
+    background-image: url("../images/homepage/banner/AdobeStock_1080p.jpg");
+    background-repeat: no-repeat;
+    background-position: cover;
+  }
+  .diff-about-txt{
+    color: #ffff;
+    margin-top: 80px;
+    margin-left: 50px;
+    line-height: 64px;
+    font-weight: bold;
+  }
+  .diff-about-txt span{
+    color: #F0C568;
+  }
+  .boxed{
+    background-color: #fff;
+    margin-top: 45px;
+    margin-left: 20px;
+    margin-bottom: -20px;
+    padding: 50px;
+    text-align: justify;
+    font-size: 19px;
+    line-height: 36px;
+  }
+  .boxed span{
+    color: #B8860B;
+    font-weight: bold;
+  }
+  /* FOR DIFFERENT ABOUT SECTION END HERE */
+
+  /* FOR BLOG CSS */
+  #banner-blog{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#banner-blog .heading{
+    display: inline-block;
+    text-align: center;
+    padding-left: 500px;
+}
+.right{
+    padding-left: 350px;
+    color: #777777;
+    /* float: right; */
+}
+#blog{
+    color: #977C3F;
+}
+#bl,#og{
+  color: #dee1e6;
+  
+}
+#bl{
+    padding: 20px 0px 0px 20px;
+}
+#og{
+    margin: -50px 0px 0px 12px;
+}
+.card-body a{
+    text-decoration: none;
+    color: #977C3F;
+}
+.card-body a:hover{
+    color: #3e75ce;
+}
+.card:hover{
+    -webkit-transform:translateY(-10px);
+	transform:translateY(-10px);
+    box-shadow:0 10px 20px 0 rgba(0,0,0,.1);
+    transition-delay: 0.3s;  
+    width: 23rem; 
+    /* visibility: visible; */
+}
+
+#toggle:hover{
+    color: #3e75ce;
+}
+#toggle{
+    cursor: pointer; /* div should *Always* have a pointer cursor */ 
+    transition-duration: 1s;
+}
+#toggle:focus { /* Apply this only when div is focused/clicked */
+    pointer-events: none; /* pointer-events disabled to allow toggle */
+    /* color: #ee0; */
+    outline: 0;
+}
+/* END HERE BLOG CSS */
+
+/* OUR CLIENT */
+#client{
+  background-color: lavender;
+  padding-top: 90px;
+  padding-bottom: 60px;
+}
+.client-title{
+  font-weight: bold;
+}
+.client-title span{
+  color: #977C3F;
+}
+/* EXAMPLER */
+.swiper-wrapper {
+  
+}
+#slide-img{
+  margin-top: 40px;
+}
+.slide-box{
+  background-color: #fff;
+  padding: 30px;
+}
+/* FOR FEATURE IN */
+#feature{
+  padding-top: 80px;
+}
+.feature-title{
+  font-weight: bold;
+  font-size: 50px;
+}
+.feature-title span{
+  color: #977C3F;
+}
+.divider{
+  border-left:1px dashed #38546d;  
+     height:90px;
+     
+     right:249px;
+     top:10px; 
+}

@@ -1,0 +1,58 @@
+.carousel-indicators li { 
+    background-color: #6e6e6e;
+    opacity: 1;
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    margin-right: 9px;
+    margin-left: 9px;
+    border: none!important;
+}
+
+.carousel-indicators .active {
+    background-color: #997D40;
+    border-radius: 25px;
+    padding: 3px; 
+    width: 28px;
+    height: 1px;  
+    margin-right: 12px;
+    margin-left: 12px;
+    border: none!important;
+}
+
+.carousel-indicators{
+    justify-content: left;
+    margin-left: 70px;
+}
+
+.nav-link{
+    padding-top: 2px!important;
+    padding-bottom: 2px!important;
+}
+
+.carousel-inner > .item {
+    position: relative;
+    display: none;
+    transition: 3s ease-in-out;
+    /* -webkit-transition: 0.6s ease-in-out left;
+    -moz-transition: 0.6s ease-in-out left;
+    -o-transition: 0.6s ease-in-out left;
+    transition: 0.6s ease-in-out left; */
+}
+
+/* .navbar-dark .navbar-nav .active>.nav-link{
+    color: #977C3F!important;
+} */
+
+.navbar-dark .navbar-nav .active>.nav-link>.line{
+    border-left: 1px solid #fff;
+}
+
+/* .ftco-navbar-blight .navbar-nav .active>.nav-link{
+    color: #977C3F!important;
+} */
+
+.ftco-navbar-blight .navbar-nav .active>.nav-link>.line{
+    border-left: 1px solid #000000;
+}
+

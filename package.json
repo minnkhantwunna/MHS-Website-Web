@@ -1,0 +1,23 @@
+{
+  "name": "contactus",
+  "version": "1.0.0",
+  "description": "Contact us form using Node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "MHS",
+  "license": "MHS",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "nodemailer": "^4.6.8",
+    "nodemon": "^1.18.4",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.0"
+  }
+}

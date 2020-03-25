@@ -1,0 +1,46 @@
+.servicebanner{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    height: 620px;
+}
+
+.servicetext{
+    position: relative;
+    top: 165px;
+    left: 0;
+    right: 0;
+    color: #fff;
+}
+
+.right-bg-img{
+    width: 390px;
+    bottom: -90px;
+    right: -72px;
+    opacity: 1;
+    position: absolute;
+}
+
+.left-bg-img{
+    /* width: 515px;
+    bottom: 138px;
+    left: -208px;
+    opacity: 1;
+    position: relative;
+    z-index: 5; */
+    width: 515px;
+    bottom: -1530px;
+    left: -100px;
+    opacity: 1;
+    position: absolute;
+}
+
+.zindex-20:hover {
+	-webkit-transform:translateY(-10px);
+	transform:translateY(-10px);
+    box-shadow:0 10px 20px 0 rgba(0,0,0,.1);
+    transition-delay: 0.3s;
+}

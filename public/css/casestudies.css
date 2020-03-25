@@ -1,0 +1,402 @@
+  .banner{
+    top:148px;
+    position: fixed; 
+    z-index:0;
+    margin:0;
+  }
+  /*.banner-bg-image{
+    background-image: url("../images/casestudies/banner/U.jpg");
+  }*/
+  .banner-notfixed{
+    top:148px;
+    position: relative; 
+    z-index:0;
+    margin:0;
+  }
+ .collapse {
+    display: none;
+    right: auto;
+}
+.more-menu-li{
+  width: 125px;
+}
+  .more-menu{
+    width: 30%;
+  }
+
+  .menu-link-name{
+    font-weight: bolder;
+    margin-left: 20px;
+    
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color:#000;
+}
+.banner-text-h1{
+  font-size: 80px;
+}
+
+.banner-text{
+  font-size: 28px;
+}
+
+  .white-overlay-text{
+    top:400px;
+    position: relative;
+    align-content: center;
+    display:block;
+    z-index:3;
+    background-color: white;
+  }
+
+  .white-overlay-text-notrelative{
+    top:400px;
+    position: initial;
+    align-content: center;
+    display:block;
+    z-index:3;
+    background-color: white;
+  }
+
+  h1{
+    text-align: center !important;
+    font-weight: 900 !important;
+    font-size:65px;
+    width:100%;
+  }
+  
+  .client_oversea_text_center{
+    font-weight: 500;
+    font-size:1.2rem;
+    text-align: center;
+  }
+
+  h3{
+    text-align:center !important;
+    font-weight: 900 !important;
+    font-size:2rem;
+    line-height: 1.4;
+    width:100%;
+  }
+  .imagefirstrow{
+    width:100%;
+    height:auto;
+  }
+  p{
+    text-align: center;
+  }
+  .white-text{
+    color:ghostwhite;
+  
+  }
+  
+  .miucolumn{
+    background-image: url("../images/casestudies/icon/Asset 22.png");
+    height: 600px;
+    width:100%;
+    margin:0 !important;
+    padding:0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+  }
+  .whkcolumn{
+    background-image: url("../images/casestudies/icon/Asset 24.png");
+    height: 600px;
+    width:100%;
+    margin:0 !important;
+    padding:0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+
+  }
+  .dpexcolumn{
+    background-image: url("../images/casestudies/icon/Asset 25.png");
+    height: 600px;
+    width:100%;
+    margin:0 !important;
+    padding:0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative; 
+  }
+ .adsmodocolumn{
+  background-image: url("../images/casestudies/icon/Asset 26.png");
+  height: 600px;
+  width:100%;
+  margin:0 !important;
+  padding:0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative; 
+ }
+ .col-md-6{
+   height:600px;
+ }
+ 
+ .col-md-12{
+   text-align: center;
+
+ }
+  .w-11{
+    width:30px !important;
+    height:15px !important;
+
+  }
+  .viewexpansion{
+    font-size: 20px;
+    color:#7c7c7c;
+  }
+  .div-text-over-image{
+    background-image: url("../images/casestudies/banner/U.jpg");
+    height: 690px;
+    width:100%;
+    margin:0 !important;
+    padding:40px 20px 20px 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative; 
+  }
+
+  .pt-7{
+    padding-top:7rem;
+  }
+  .mb-7{
+    margin-bottom: 7rem;
+  }
+  .whk-background-logo{
+    width:18%;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+
+  }
+  .miu-background-logo{
+    width:24%;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+
+  }
+  .dpex-background-logo{
+    width:27%;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+
+  }
+  .adsmodo-background-logo{
+    width:18%;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+
+  }
+  h2{
+    color:white !important;
+    line-height: 1.3;
+    font-size:50px;
+    font-weight: 900;
+  }
+  .btn-custom{
+    height:50px;
+    width:200px;
+    background-color: #977C3F;
+  }
+  .dark-h2{
+    color:black !important;
+    line-height: 1.4;
+    font-size:50px;
+    font-weight: 500;
+  }
+  
+  .img-fluid_1{
+    height:auto;
+    width:80%;
+    display:block;
+   margin-left:auto;
+   margin-right:auto;
+  }
+  .img-fluid_2{
+    height:80%;
+    width:80%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .img-fluid_3{
+    height:75%;
+    width:60%;
+    display:block;
+    margin-left:auto;
+   margin-right:auto;
+  }
+  .img-fluid_4{
+    height:auto;
+    width:80%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .img-fluid_5{
+    height:auto;
+    width:80%;
+    display:block;
+    margin-left:auto;
+   margin-right:auto;
+  }
+  .img-fluid_6{
+    height:auto;
+    width:70%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .img-fluid_7{
+    height:auto;
+    width:80%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .img-fluid_8{
+    height:auto;
+    width:80%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .img-fluid_9{
+    height:auto;
+    width:70%;
+    display:block;
+    margin-left:auto;
+   margin-right:auto;
+  }
+  .img-fluid_10{
+    height:auto;
+    width:90%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .img-fluid_11{
+    height:auto;
+    width:60%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .img-fluid_12{
+    height:auto;
+    width:35%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .img-fluid_13{
+    height:auto;
+    width:100%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .img-fluid_14{
+    height:auto;
+    width:70%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .img-fluid_15{
+    height:auto;
+    width:50%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .img-fluid_16{
+    height:auto;
+    width:50%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .img-fluid_17{
+    height:auto;
+    width:80%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .img-fluid_18{
+    height:auto;
+    width:65%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .img-fluid_19{
+    height:auto;
+    width:35%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .img-fluid_20{
+    height:auto;
+    width:50%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .img-fluid_21{
+    height:auto;
+    width:45%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .img-fluid_22{
+    height:auto;
+    width:80%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .pt_custom_img{
+    padding-top:2.5rem;
+  }
+  .pt_custom_img_2{
+    padding-top:2.2rem;
+  }
+  .no-top-border{
+    border:1.2px dashed  #d8d8d8 !important;
+    border-top:none !important;
+    border-right:none !important;
+    
+  }
+  .no-top-border:first-child{
+    border-left:none !important;
+  }
+  .right-border{
+    border-left:1.2px dashed  #d8d8d8;
+  }
+  .right-border:first-child{
+    border-left:none;
+  }
+  .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black!important;
+    font-weight: 500;
+    opacity: 1 !important;
+  }

@@ -1,0 +1,87 @@
+#banner1{
+    background-color: #f4f4f4;
+}
+.head{
+    color: #b89f9f;
+}
+.head1{
+    font-weight:bold;
+    font-size: 40px;
+}
+.head-img{
+    width: 50%;
+    height: 45%;
+    padding-top: 35px;
+}
+.pad{
+    padding-bottom: 80px;
+}
+.sec0 li img{
+  
+    width: 100px;
+    height: 65px;
+}
+.sec0{
+    border-radius: 10px;
+}
+.sec0:hover{
+    -webkit-transform:translateY(-10px);
+	transform:translateY(-10px);
+    box-shadow:0 10px 20px 0 rgba(0,0,0,.1);
+    transition-delay: 0.3s;   
+}
+#banner{
+    padding-top: 100px;
+}
+#banner .heading{
+    display: inline-block;
+    text-align: center;
+    padding-left: 500px;
+}
+.right{
+    padding-left: 350px;
+    color: #777777;
+    /* float: right; */
+}
+#blog{
+    color: #977C3F;
+}
+#bl,#og{
+  color: #dee1e6;
+  
+}
+#bl{
+    padding: 20px 0px 0px 20px;
+}
+#og{
+    margin: -50px 0px 0px 12px;
+}
+.card-body a{
+    text-decoration: none;
+    color: #977C3F;
+}
+.card-body a:hover{
+    color: #3e75ce;
+}
+.card:hover{
+    -webkit-transform:translateY(-10px);
+	transform:translateY(-10px);
+    box-shadow:0 10px 20px 0 rgba(0,0,0,.1);
+    transition-delay: 0.3s;  
+    width: 23rem; 
+    /* visibility: visible; */
+}
+
+#toggle:hover{
+    color: #3e75ce;
+}
+#toggle{
+    cursor: pointer; /* div should *Always* have a pointer cursor */ 
+    transition-duration: 1s;
+}
+#toggle:focus { /* Apply this only when div is focused/clicked */
+    pointer-events: none; /* pointer-events disabled to allow toggle */
+    /* color: #ee0; */
+    outline: 0;
+}
+

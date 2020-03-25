@@ -1,0 +1,172 @@
+
+.banner{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    background: lightblue url("../images/casestudy/banner/Background.jpg");
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent!important;
+    height: 1000px;
+}
+
+.banner-notfixed{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    background: lightblue url("../images/casestudy/banner/Background.jpg");
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent!important;
+    height: 440px;
+}
+
+::-webkit-scrollbar {
+    width:0px;
+    height:0px;
+  }
+  
+  ::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+  }
+  
+  /* body {
+    background: #111;
+  } */
+  
+  div {
+    box-sizing: border-box;
+  }
+  
+  .horizontal-scroll-wrapper {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: calc(400px+0px);
+    max-height: 1280px;
+    margin: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transform: rotate(-90deg) translateY(-1280px);
+    transform-origin: right top;
+  }
+    .horizontal-scroll-wrapper  > div {
+      display: block;
+      padding: 5px;
+      transform: rotate(90deg);
+      transform-origin: right top;
+   
+  }
+  
+  .squares {
+    padding: 1280px 0 0 0;
+  }
+    .squares > div {
+      width: 1280px;
+      height: 1280px;
+  }
+  
+
+
+#container1{
+   padding-top:80px;
+    text-align: center;
+    color: white;
+}
+
+#asset_24{
+   margin: 0 auto;
+    width: 100px;
+    height: 70px;   
+}
+
+#for_h1{
+    font-size: 40px;
+}
+
+#for_para1{
+    font-size: x-large;
+}
+
+#about_motor{
+    text-align:center;
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 35px;
+}
+
+#for_asset15{
+    margin-left: 120px;
+    width: 320px;
+    height: 430px;
+}
+
+#for_comfy{
+    margin-right: 120px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#for_para2{
+    margin-right: 120px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#for_avaiable{
+    margin-left: 120px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#for_para3{
+    margin-left: 120px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#for_asset16{
+    margin-right: 120px;
+    width: 430px;
+    height: 300px;
+}
+
+#for_para4{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+
+  .white-overlay-text{
+    top:400px;
+    position: relative;
+    align-content: center;
+    display:block;
+    z-index:3;
+    background-color: white;
+  }
+
+  .white-overlay-text-notrelative{
+    top:400px;
+    position: initial;
+    align-content: center;
+    display:block;
+    z-index:3;
+    background-color: white;
+  }
+

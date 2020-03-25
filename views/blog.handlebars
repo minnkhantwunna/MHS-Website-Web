@@ -1,0 +1,261 @@
+<head>
+    <link rel="stylesheet" href="../../public/css/blog.css">
+</head>
+
+<nav class="headernav navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-blight" id="ftco-navbar1">
+    <div class="container">
+        <a class="navbar-brand" href="/">
+            <img class="navbar-brand-img pt-2 pb-3" src="../public/images/logo/Asset 25.svg" id="mhsicon" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="ftco-nav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="/" class="nav-link"><span class="line pr-1"></span> Home</a></li>
+                <li class="nav-item active"><a href="/aboutus" class="nav-link"><span class="line pr-1"></span> About
+                        Us</a></li>
+                <li class="nav-item"><a href="/services" class="nav-link"><span class="line pr-1"></span> Services</a>
+                </li>
+                <li class="nav-item"><a href="/contactus" class="nav-link"><span class="line pr-1"></span> Contact
+                        Us</a>
+                </li>
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="/blog">Blog</a>
+                    <a href="/casestudies">Case Study</a>
+                    <a href="/casestudy">Case Study Detail</a>
+                </div>
+                <li class="nav-item"><a onclick="openNav()" class="nav-link"><span class="line pr-1"></span>
+                        <i class="fa fa-align-left more-menu-btn"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section id="banner1" class="">
+    <div class="container">
+        <div class="row">
+            <div class="col-4 pt-5">
+                <div class="head">
+                    <h6>Most Viewed</h6>
+                </div>
+                <ul class="list-unstyled  my-3">
+                    <div class="sec0 bg-white">
+                        <li class="media">
+                            <img class="ml-3 my-3" src="../public/images/blog/Asset 7.png"
+                                alt="Generic placeholder image">
+                            <div class="media-body">
+                                <p class="ml-2 my-3 mx-3">We've got new experience from <br> MHS VR Research week.</p>
+                                <p class="ml-2 my-3 mx-3"> 13 Jan 2020</p>
+                            </div>
+                        </li>
+                    </div>
+
+                    <div class="sec0 bg-white my-4">
+                        <li class="media">
+                            <img class="ml-3 my-4" src="../public/images/blog/Asset 7.png"
+                                alt="Generic placeholder image">
+                            <div class="media-body">
+                                <p class="ml-2 my-3 mx-3">We've got new experience from <br> MHS VR Research week.</p>
+                                <p class="ml-2 my-3 mx-3"> 13 Jan 2020</p>
+                            </div>
+                        </li>
+                    </div>
+
+                    <div class="sec0 bg-white">
+                        <li class="media">
+                            <img class="ml-3 my-3" src="../public/images/blog/2.jpg" alt="Generic placeholder image">
+                            <div class="media-body">
+                                <p class="ml-2 my-3 mx-3">We've got new experience from <br> MHS VR Research week.</p>
+                                <p class="ml-2 my-3 mx-3"> 13 Jan 2020</p>
+                            </div>
+                        </li>
+                    </div>
+
+                </ul>
+            </div>
+            <div class="col-8 pt-5 pl-5" id="sec-item">
+                <h1 class="head1">We've got new experience from <br>MHS VR Research week.</h1>
+                <h6 class="pt-3">13 Jan 2020</h6>
+                <img class="py-5 head-img" src="../public/images/blog/Untitled-3.jpg" alt="Generic placeholder image">
+                <p class="text-justify pad">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Unde cumque ex cum harum consequuntur dolorum doloremque fugiat illum ut beatae inventore culpa,
+                    dolores quo natus adipisci ipsum voluptas offic?.Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit.
+                    Unde cumque ex cum harum consequuntur dolorum doloremque fugiat illum ut beatae inventore culpa,
+                    dolores quo natus adipisci ipsum voluptas offic? Unde cumque ex cum harum consequuntur dolorum
+                    doloremque fugiat illum ut beatae inventore culpa, dolores quo natus adipisci ipsum voluptas
+                    offic?.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="banner">
+    <div class="container-fluid">
+        <h1 class="text-center font-weight-bold heading my-4 f-50">Rcent <span id="blog">Blogs</span></h1>
+        {{!-- <span class="text-right">Show more</span> --}}
+        <span class="text-right right" id="toggle">Show more</span>
+        <div class="show">
+            <div class="row pt-4">
+                <div class="col-2">
+                    <div class=" border-0" style="width: 17rem;">
+                        <h1 class=" font-weight-bold f-140" id="bl">BL</h1>
+                        <h1 class=" font-weight-bold f-140" id="og">OG</h1>
+                    </div>
+                </div>
+                <div class="col-3 mx-4">
+                    <div class="card border-0" style="width: 20rem;">
+                        <img class="card-img-top" src="../public/images/blog/Asset 7.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title"> 13 Jan 2020</h5>
+                            <p class="card-text">We've got new experience from MHS VR Research week.</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 ">
+                    <div class="card border-0" style="width: 20rem;">
+                        <img class="card-img-top" src="../public/images/blog/Asset 7.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title"> 13 Jan 2020</h5>
+                            <p class="card-text">We've got new experience from MHS VR Research week.</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mx-4">
+                    <div class="card border-0  " style="width: 20rem;">
+                        <img class="card-img-top" src="../public/images/blog/Asset 7.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title"> 13 Jan 2020</h5>
+                            <p class="card-text">We've got new experience from MHS VR Research week.</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="show" style="display: none;">
+                <div class="row pt-4">
+                    <div class="col-4 mb-5">
+                        <div class="card border-0" style="width: 20rem;">
+                            <img class="card-img-top" src="../public/images/blog/Asset 7.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title"> 13 Jan 2020</h5>
+                                <p class="card-text">We've got new experience from MHS VR Research week.</p>
+                                <a href="#">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4  mb-5">
+                        <div class="card border-0" style="width: 20rem;">
+                            <img class="card-img-top" src="../public/images/blog/Asset 7.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title"> 13 Jan 2020</h5>
+                                <p class="card-text">We've got new experience from MHS VR Research week.</p>
+                                <a href="#">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4  mb-5">
+                        <div class="card border-0  " style="width: 20rem;">
+                            <img class="card-img-top" src="../public/images/blog/Asset 7.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title"> 13 Jan 2020</h5>
+                                <p class="card-text">We've got new experience from MHS VR Research week.</p>
+                                <a href="#">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4  mb-5">
+                        <div class="card border-0  " style="width: 20rem;">
+                            <img class="card-img-top" src="../public/images/blog/Asset 7.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title"> 13 Jan 2020</h5>
+                                <p class="card-text">We've got new experience from MHS VR Research week.</p>
+                                <a href="#">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4  mb-5">
+                        <div class="card border-0  " style="width: 20rem;">
+                            <img class="card-img-top" src="../public/images/blog/Asset 7.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title"> 13 Jan 2020</h5>
+                                <p class="card-text">We've got new experience from MHS VR Research week.</p>
+                                <a href="#">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4  mb-5">
+                        <div class="card border-0  " style="width: 20rem;">
+                            <img class="card-img-top" src="../public/images/blog/Asset 7.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title"> 13 Jan 2020</h5>
+                                <p class="card-text">We've got new experience from MHS VR Research week.</p>
+                                <a href="#">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4  mb-5">
+                        <div class="card border-0  " style="width: 20rem;">
+                            <img class="card-img-top" src="../public/images/blog/Asset 7.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title"> 13 Jan 2020</h5>
+                                <p class="card-text">We've got new experience from MHS VR Research week.</p>
+                                <a href="#">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4  mb-5">
+                        <div class="card border-0  " style="width: 20rem;">
+                            <img class="card-img-top" src="../public/images/blog/Asset 7.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title"> 13 Jan 2020</h5>
+                                <p class="card-text">We've got new experience from MHS VR Research week.</p>
+                                <a href="#">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="../public/js/jquery.min.js"></script>
+<script src="../public/js/jquery-migrate-3.0.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    $("#toggle").click(function () {
+        $(".show").toggle();
+        var text = $('#toggle').text();
+        if (text === "Show more") {
+            $('#toggle').text("Show less");
+        }
+        else {
+            $('#toggle').text("Show more");
+        }
+    });
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
